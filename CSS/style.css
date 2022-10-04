@@ -29,7 +29,7 @@ main .hero {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('./img/ba1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('../img/ba1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
