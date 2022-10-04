@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel-inner{
+    height: 85vh;
+}
+.carousel-inner .carousel-caption{
+    position: relative;
+    top: -40px!important;
+}
+
+.carousel-inner img{
+    filter: brightness(50%);
+}
+header nav .navbar-nav a{
+    color: white;
+}
+header nav .navbar-nav a:hover{
+    color: greenyellow;
+}
+header nav .navbar-nav a:active{
+    color: greenyellow;
+}
+main .hero {
+    height: 86vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('/img/ba1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .info-hero{
+    width: 870px;
+    text-align: right;
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 5%;
+    margin-right: 9%;
+}
+main .info-hero h1{
+    font-size: 2em;
+}
+main .info-hero .btn-postulacion, .btn-ticket{
+    height: 2.4em;
+    width: 35%;
+    font-size: 1em;
+    border-radius: 6px;
+    color: white;
+}
+main .info-hero .btn-info-hero {
+    margin: 1.2em 0.3em 0 0;
+}
+main .info-hero .btn-postulacion{
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px white;
+    transition: all 1s;
+}
+main .info-hero .btn-ticket{
+    background-color: rgb(10, 155, 10);
+    border: none;
+    transition: all 1s;
+}
+main .info-hero .btn-postulacion:hover{
+    color: greenyellow;
+    border-color: greenyellow;
+}
+main .info-hero .btn-ticket:hover{
+    color: greenyellow;
+    background-color: #303230;
+    border: solid 1 px greenyellow;
+}
+
+.main-oradores{
+    text-align: center;
+    font-size: 2em;
+}
+
+.main-oradores img{
+    min-height: 500px;
+}
+
+.main-oradores .react, .javascript, .negocios, .startups{
+    border-radius: 8px;
+    padding: 0 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.main-oradores .javascript{
+    background-color: #FFC900;
+    color: black;
+}
+.main-oradores .react{
+    background-color: rgb(13, 202, 202);
+}
+.main-oradores .negocios{
+    background-color: gray;
+}
+.main-oradores .startups{
+    background-color: crimson;
+}
+
+.main-lugar-y-fecha img{
+    width: 50%;
+}
+
+.main-lugar-y-fecha{
+    width: 100%;
+    display: flex;
+    border: solid 1px black;
+}
+.main-lugar-y-fecha .info-lugar-y-fecha{
+    color: white;
+    background-color: rgb(80, 79, 79);
+    padding: 1.8%;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.main-lugar-y-fecha .info-lugar-y-fecha h4{
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.main-lugar-y-fecha .info-lugar-y-fecha .conoce-mas{
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    background-color: #30323000;
+    color: white;
+    border: solid 1px white;
+    margin-top: 2em;
+    font-size: 1em;
+    transition: all 1s;
+}
+.main-lugar-y-fecha .info-lugar-y-fecha .conoce-mas:hover{
+    color: greenyellow;
+    border-color: greenyellow;
+}
+
+.conviertete-en-orador{
+    margin-top: 3em;
+    width: 50%;
+}
+
+.conviertete-en-orador .btn{
+    background-color: rgb(173, 214, 78);
+    font-size: 1.7em;
+}
+.conviertete-en-orador .btn:hover{
+    background-color: rgb(102, 141, 20);
+}
+
+.nav-item-footer{
+    font-size: 1.2em;
+    width: 7em;
+}
+footer{
+    width: 100%;
+    background: rgb(4,40,69);
+    background: linear-gradient(90deg, rgba(4,40,69,1) 0%, rgba(24,98,138,1) 100%, rgba(19,69,96,1) 100%);
+}
+
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-list li{
+    list-style: none;
+}
+.footer-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list a:hover{
+    color:rgb(173, 214, 78);
+}
+
+@media all and (max-width: 1050px){
+    .footer-list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-item-footer{
+        width: auto;
+    }
+}
+
+@media all and (max-width: 1050px){
+    .conviertete-en-orador{
+        width: 100%;
+    }
+}
+@media all and (max-width: 775px){
+    .main-lugar-y-fecha{
+    display: block;
+    }
+    .main-lugar-y-fecha img{
+        width: 100%;
+    }
+}
+@media all and (max-width: 575px){
+    main .info-hero .btn-postulacion, .btn-ticket{
+        height: 2.4em;
+        width: 48%;
+        font-size: 0.8em;
+        border-radius: 6px;
+        color: white;
+    }
+}
