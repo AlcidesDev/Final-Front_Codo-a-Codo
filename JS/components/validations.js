@@ -7,7 +7,7 @@ const expresiones = {
 }
 
 const form = document.getElementById('formTicket');
-const inputs = document.querySelectorAll('#formTicket input');
+export const inputs = document.querySelectorAll('#formTicket input');
 
 
 export const campos = {
