@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -42,6 +43,7 @@ main .info-hero{
     color: white;
     margin-top: 5%;
     margin-right: 9%;
+    box-sizing: border-box;
 }
 main .info-hero h1{
     font-size: 2em;
